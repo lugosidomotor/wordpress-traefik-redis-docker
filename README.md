@@ -3,6 +3,7 @@ https://medium.com/@thibaut.deveraux/a-docker-compose-file-to-install-wordpress-
 
 
 ### To .htaccess
+
 <Files wp-config.php.save>
     Order allow,deny
     Deny from all
