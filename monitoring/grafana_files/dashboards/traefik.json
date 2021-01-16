@@ -16,8 +16,8 @@
   "editable": true,
   "gnetId": 11508,
   "graphTooltip": 0,
-  "id": 6,
-  "iteration": 1610797657436,
+  "id": 5,
+  "iteration": 1610797769016,
   "links": [],
   "panels": [
     {
@@ -837,7 +837,10 @@
   "refresh": "5s",
   "schemaVersion": 26,
   "style": "dark",
-  "tags": [],
+  "tags": [
+    "traefik",
+    "load-balancer"
+  ],
   "templating": {
     "list": [
       {
@@ -1002,6 +1005,6 @@
   },
   "timezone": "",
   "title": "Traefik",
-  "uid": "lE--NNfGz",
-  "version": 2
+  "uid": "jgjhg",
+  "version": 4
 }
