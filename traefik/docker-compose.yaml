@@ -29,6 +29,8 @@ services:
       # Settle letsencrypt as the certificate provider
       - "--certificatesresolvers.myhttpchallenge.acme.email=me@mail.com"
       - "--certificatesresolvers.myhttpchallenge.acme.storage=/letsencrypt/acme.json"
+      - "--metrics.prometheus=true"
+      - "--metrics.prometheus.buckets=0.1,0.3,1.2,5.0"
     ports:
       - "80:80"
       - "443:443"
